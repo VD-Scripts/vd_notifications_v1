@@ -32,6 +32,7 @@ window.addEventListener('message', function(event) {
                     </div>
                 `)
             }
+            $(`#${id2}`).hide().fadeIn(600)
             setTimeout(() => {
                 $(`#${id2}`).fadeOut(600)
             }, 5000)
